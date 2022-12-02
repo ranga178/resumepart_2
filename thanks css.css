@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/*thanks*/
+body
+{
+	font-family: 'Anton', sans-serif;
+font-family: 'Righteous', cursive;
+	
+	background:#ccc;
+	overflow:hidden;
+}
+
+.box
+{
+	width:100%;
+	height:800px;
+	background:#000;
+    text-align:center ;
+	
+}
+h1,p
+{
+	
+	color:#fff;
+	text-align:center ;
+}
+
+.box h1
+{
+	padding-top:250px;
+	font-size:50px;
+	font-family: 'Anton', sans-serif;
+}
+
+.box p
+{
+	font-family: 'Righteous', cursive;
+	
+    
+}
+.click{
+    padding:10px 35px;
+    background-color:transparent;
+    border: 1px solid white;
+    color:white;
+    outline:none;
+    transition: .6s ease;
+    
+}
+.click:hover{
+    cursor:pointer;
+    background-color:white;
+    color:black;
+    box-shadow:0 0 5px white,0 0 10px white, 0 0 15px white;
+    font-weight:bold;
+}
+
